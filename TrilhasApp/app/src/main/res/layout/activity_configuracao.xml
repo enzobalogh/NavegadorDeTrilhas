@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Layout da ConfiguracaoActivity.
+    Organizado em seções (CardViews) para agrupar logicamente
+    as opções de configuração.
+-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ============================================================
+             Cabeçalho da seção
+             ============================================================ -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_configuracoes_header"
+            android:textSize="13sp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- ============================================================
+             Card 1: Tipo de Mapa
+             ============================================================ -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Título da seção Tipo de Mapa -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_tipo_mapa"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:drawableStart="@drawable/ic_map"
+                    android:drawablePadding="8dp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Descrição -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_tipo_mapa"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- RadioGroup: opções de tipo de mapa -->
+                <RadioGroup
+                    android:id="@+id/rg_tipo_mapa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Opção: Vetorial (padrão) -->
+                    <RadioButton
+                        android:id="@+id/rb_vetorial"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="@string/rb_vetorial"
+                        android:textSize="15sp"
+                        android:textColor="@color/text_primary"
+                        android:buttonTint="@color/colorPrimary"
+                        android:paddingStart="8dp"
+                        android:checked="true" />
+
+                    <!-- Opção: Satélite -->
+                    <RadioButton
+                        android:id="@+id/rb_satelite"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="@string/rb_satelite"
+                        android:textSize="15sp"
+                        android:textColor="@color/text_primary"
+                        android:buttonTint="@color/colorPrimary"
+                        android:paddingStart="8dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- ============================================================
+             Card 2: Forma de Navegação
+             ============================================================ -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Título da seção Navegação -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_navegacao"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:drawableStart="@drawable/ic_navigation"
+                    android:drawablePadding="8dp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Descrição -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_navegacao"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- RadioGroup: opções de navegação -->
+                <RadioGroup
+                    android:id="@+id/rg_navegacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Opção: North Up (padrão) -->
+                    <RadioButton
+                        android:id="@+id/rb_north_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="@string/rb_north_up"
+                        android:textSize="15sp"
+                        android:textColor="@color/text_primary"
+                        android:buttonTint="@color/colorPrimary"
+                        android:paddingStart="8dp"
+                        android:checked="true" />
+
+                    <!-- Opção: Course Up -->
+                    <RadioButton
+                        android:id="@+id/rb_course_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="@string/rb_course_up"
+                        android:textSize="15sp"
+                        android:textColor="@color/text_primary"
+                        android:buttonTint="@color/colorPrimary"
+                        android:paddingStart="8dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- ============================================================
+             Botão Salvar Configurações
+             ============================================================ -->
+        <Button
+            android:id="@+id/btn_salvar_configuracoes"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/btn_salvar"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:elevation="4dp" />
+
+    </LinearLayout>
+
+</ScrollView>
