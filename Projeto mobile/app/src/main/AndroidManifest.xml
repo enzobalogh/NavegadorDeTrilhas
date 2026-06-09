@@ -43,6 +43,18 @@
             android:label="@string/title_registrar_trilha"
             android:parentActivityName=".activities.MainActivity" />
 
+        <activity
+            android:name=".activities.ConsultarTrilhasActivity"
+            android:exported="false"
+            android:label="Minhas Trilhas"
+            android:parentActivityName=".activities.MainActivity" />
+
+        <activity
+            android:name=".activities.VisualizarTrilhaActivity"
+            android:exported="false"
+            android:label="Visualizar Trilha"
+            android:parentActivityName=".activities.ConsultarTrilhasActivity" />
+
     </application>
 
 </manifest>
