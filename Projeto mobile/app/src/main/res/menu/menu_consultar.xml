@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_apagar_intervalo"
+        android:title="Apagar por intervalo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_apagar_todas"
+        android:title="Apagar todas"
+        app:showAsAction="never" />
+
+</menu>
