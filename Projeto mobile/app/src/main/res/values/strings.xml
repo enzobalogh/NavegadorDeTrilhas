@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trilhas App</string>
+
+    <string name="subtitulo_main">Gerencie suas aventuras ao ar livre</string>
+    <string name="btn_registrar_trilha">Registrar Trilha</string>
+    <string name="btn_consultar_trilhas">Consultar Trilhas</string>
+    <string name="btn_configuracoes">Configurações</string>
+    <string name="versao_app">Versão 1.0</string>
+    <string name="desc_logo">Logo do aplicativo Trilhas</string>
+
+    <string name="title_configuracoes">Configurações</string>
+    <string name="titulo_configuracoes_header">Preferências do aplicativo</string>
+
+    <string name="titulo_tipo_mapa">Tipo de Mapa</string>
+    <string name="desc_tipo_mapa">Escolha como o mapa será exibido durante o rastreamento da trilha.</string>
+    <string name="rb_vetorial">Vetorial (padrão)</string>
+    <string name="rb_satelite">Satélite</string>
+
+    <string name="titulo_navegacao">Forma de Navegação</string>
+    <string name="desc_navegacao">Define como o mapa se orienta em relação ao seu movimento.</string>
+    <string name="rb_north_up">North Up — Norte sempre no topo (padrão)</string>
+    <string name="rb_course_up">Course Up — Mapa rotaciona com o movimento</string>
+
+    <string name="btn_salvar">Salvar Configurações</string>
+
+    <string name="msg_configuracoes_salvas">Configurações salvas com sucesso!</string>
+
+    <string name="google_maps_key">AIzaSyCvYuYXomI-dXi60S2rUNwg3PRc4l-sLC8</string>
+
+    <string name="title_registrar_trilha">Registrar Trilha</string>
+    <string name="velocidade_atual">Velocidade atual</string>
+    <string name="velocidade_maxima">Velocidade máxima</string>
+    <string name="tempo_decorrido">Tempo</string>
+    <string name="distancia_total">Distância</string>
+    <string name="btn_iniciar_trilha">Iniciar trilha</string>
+    <string name="btn_finalizar_trilha">Finalizar e salvar</string>
+    <string name="dialog_titulo_nome_trilha">Nome da trilha</string>
+    <string name="dialog_hint_nome_trilha">Ex: Trilha do parque</string>
+    <string name="msg_permissao_localizacao">Permissão de localização é necessária para registrar a trilha.</string>
+    <string name="msg_trilha_iniciada">Trilha iniciada!</string>
+    <string name="msg_trilha_salva">Trilha salva com sucesso!</string>
+    <string name="msg_trilha_muito_curta">Registre pelo menos uma posição antes de finalizar.</string>
+
+</resources>
