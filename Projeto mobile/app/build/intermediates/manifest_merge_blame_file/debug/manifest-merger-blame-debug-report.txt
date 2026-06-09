@@ -1,0 +1,210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.trilhasapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <uses-feature
+15-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:8:5-10:35
+16        android:glEsVersion="0x00020000"
+16-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:9:9-41
+17        android:required="true" />
+17-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:10:9-32
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\56f9b93c719f53496819dc3a9ad16cb5\workspace\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\56f9b93c719f53496819dc3a9ad16cb5\workspace\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\56f9b93c719f53496819dc3a9ad16cb5\workspace\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\56f9b93c719f53496819dc3a9ad16cb5\workspace\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\56f9b93c719f53496819dc3a9ad16cb5\workspace\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\02441a673ea52f2555ce4dddf1fe4f18\workspace\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.trilhasapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\02441a673ea52f2555ce4dddf1fe4f18\workspace\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\02441a673ea52f2555ce4dddf1fe4f18\workspace\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.trilhasapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\02441a673ea52f2555ce4dddf1fe4f18\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\02441a673ea52f2555ce4dddf1fe4f18\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:12:5-46:19
+35        android:allowBackup="true"
+35-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:13:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\02441a673ea52f2555ce4dddf1fe4f18\workspace\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:14:9-43
+40        android:label="@string/app_name"
+40-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:15:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:16:9-54
+42        android:supportsRtl="true"
+42-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:17:9-35
+43        android:testOnly="true"
+44        android:theme="@style/AppTheme" >
+44-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:18:9-40
+45        <meta-data
+45-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:20:9-22:55
+46            android:name="com.google.android.geo.API_KEY"
+46-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:21:13-58
+47            android:value="@string/google_maps_key" />
+47-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:22:13-52
+48
+49        <activity
+49-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:24:9-32:20
+50            android:name="com.example.trilhasapp.activities.MainActivity"
+50-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:25:13-52
+51            android:exported="true"
+51-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:26:13-36
+52            android:label="@string/app_name" >
+52-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:27:13-45
+53            <intent-filter>
+53-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:28:13-31:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:29:17-69
+54-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:29:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:30:17-77
+56-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:30:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:34:9-38:69
+60            android:name="com.example.trilhasapp.activities.ConfiguracaoActivity"
+60-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:35:13-60
+61            android:exported="false"
+61-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:36:13-37
+62            android:label="@string/title_configuracoes"
+62-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:37:13-56
+63            android:parentActivityName="com.example.trilhasapp.activities.MainActivity" />
+63-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:38:13-66
+64        <activity
+64-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:40:9-44:69
+65            android:name="com.example.trilhasapp.activities.RegistrarTrilhaActivity"
+65-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:41:13-63
+66            android:exported="false"
+66-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:42:13-37
+67            android:label="@string/title_registrar_trilha"
+67-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:43:13-59
+68            android:parentActivityName="com.example.trilhasapp.activities.MainActivity" />
+68-->C:\Users\Matheus\Desktop\Projeto mobile\app\src\main\AndroidManifest.xml:44:13-66
+69
+70        <!-- Needs to be explicitly declared on P+ -->
+71        <uses-library
+71-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\56f9b93c719f53496819dc3a9ad16cb5\workspace\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+72            android:name="org.apache.http.legacy"
+72-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\56f9b93c719f53496819dc3a9ad16cb5\workspace\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+73            android:required="false" />
+73-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\56f9b93c719f53496819dc3a9ad16cb5\workspace\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\4e465a97007e9db5ffe4eb989035ce42\workspace\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\4e465a97007e9db5ffe4eb989035ce42\workspace\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\4e465a97007e9db5ffe4eb989035ce42\workspace\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\4e465a97007e9db5ffe4eb989035ce42\workspace\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\bda32a6dbc447034ddfb9770445bb5bd\workspace\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\bda32a6dbc447034ddfb9770445bb5bd\workspace\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\bda32a6dbc447034ddfb9770445bb5bd\workspace\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\eed818ab5eef28181079451e234e75a2\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\eed818ab5eef28181079451e234e75a2\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.example.trilhasapp.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\eed818ab5eef28181079451e234e75a2\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\eed818ab5eef28181079451e234e75a2\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\eed818ab5eef28181079451e234e75a2\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\eed818ab5eef28181079451e234e75a2\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\eed818ab5eef28181079451e234e75a2\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\9178d3d4798496e563a67203abc4ee8d\workspace\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\9178d3d4798496e563a67203abc4ee8d\workspace\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\9178d3d4798496e563a67203abc4ee8d\workspace\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Matheus\.gradle\caches\9.3.0\transforms\97b00a96298a9115242dfcc32facabf9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>

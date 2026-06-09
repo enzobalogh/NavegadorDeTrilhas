@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nome do aplicativo -->
+    <string name="app_name">Trilhas App</string>
+
+    <!-- MainActivity -->
+    <string name="subtitulo_main">Gerencie suas aventuras ao ar livre</string>
+    <string name="btn_registrar_trilha">Registrar Trilha</string>
+    <string name="btn_consultar_trilhas">Consultar Trilhas</string>
+    <string name="btn_configuracoes">Configurações</string>
+    <string name="versao_app">Versão 1.0</string>
+    <string name="desc_logo">Logo do aplicativo Trilhas</string>
+
+    <!-- ConfiguracaoActivity -->
+    <string name="title_configuracoes">Configurações</string>
+    <string name="titulo_configuracoes_header">Preferências do aplicativo</string>
+
+    <!-- Card: Tipo de Mapa -->
+    <string name="titulo_tipo_mapa">Tipo de Mapa</string>
+    <string name="desc_tipo_mapa">Escolha como o mapa será exibido durante o rastreamento da trilha.</string>
+    <string name="rb_vetorial">Vetorial (padrão)</string>
+    <string name="rb_satelite">Satélite</string>
+
+    <!-- Card: Forma de Navegação -->
+    <string name="titulo_navegacao">Forma de Navegação</string>
+    <string name="desc_navegacao">Define como o mapa se orienta em relação ao seu movimento.</string>
+    <string name="rb_north_up">North Up — Norte sempre no topo (padrão)</string>
+    <string name="rb_course_up">Course Up — Mapa rotaciona com o movimento</string>
+
+    <!-- Botão Salvar -->
+    <string name="btn_salvar">Salvar Configurações</string>
+
+    <!-- Mensagens de feedback -->
+    <string name="msg_configuracoes_salvas">Configurações salvas com sucesso!</string>
+
+</resources>

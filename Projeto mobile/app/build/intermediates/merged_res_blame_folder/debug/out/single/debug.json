@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xhdpi_ic_navigation.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xhdpi/ic_navigation.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xhdpi_ic_settings.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xhdpi/ic_settings.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-anydpi-v21_ic_list_trilhas.xml.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-anydpi-v21/ic_list_trilhas.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxhdpi_ic_map.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxhdpi/ic_map.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-mdpi_ic_navigation.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-mdpi/ic_navigation.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxxhdpi_ic_navigation.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxxhdpi/ic_navigation.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-hdpi_ic_settings.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-hdpi/ic_settings.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-ldpi_ic_settings.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-ldpi/ic_settings.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-hdpi_ic_list_trilhas.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-hdpi/ic_list_trilhas.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-anydpi-v21_ic_add_location.xml.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-anydpi-v21/ic_add_location.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xhdpi_ic_list_trilhas.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xhdpi/ic_list_trilhas.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxxhdpi_ic_trilha_logo.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxxhdpi/ic_trilha_logo.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-ldpi_ic_launcher.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xhdpi_ic_user_marker.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xhdpi/ic_user_marker.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-ldpi_ic_navigation.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-ldpi/ic_navigation.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-anydpi-v21_ic_trilha_logo.xml.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-anydpi-v21/ic_trilha_logo.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-mdpi_ic_map.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-mdpi/ic_map.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-hdpi_ic_map.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-hdpi/ic_map.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xhdpi_ic_add_location.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xhdpi/ic_add_location.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-anydpi-v21_ic_user_marker.xml.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-anydpi-v21/ic_user_marker.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-ldpi_ic_user_marker.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-ldpi/ic_user_marker.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-mdpi_ic_user_marker.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-mdpi/ic_user_marker.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable_bg_overlay_info.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/drawable/bg_overlay_info.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-hdpi_ic_trilha_logo.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-hdpi/ic_trilha_logo.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxxhdpi_ic_settings.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxxhdpi/ic_settings.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-mdpi_ic_add_location.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-mdpi/ic_add_location.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-anydpi-v21_ic_navigation.xml.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-anydpi-v21/ic_navigation.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxhdpi_ic_trilha_logo.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxhdpi/ic_trilha_logo.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxhdpi_ic_navigation.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxhdpi/ic_navigation.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxxhdpi_ic_list_trilhas.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxxhdpi/ic_list_trilhas.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-hdpi_ic_add_location.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-hdpi/ic_add_location.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-anydpi-v21_ic_map.xml.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-anydpi-v21/ic_map.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxxhdpi_ic_map.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxxhdpi/ic_map.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-hdpi_ic_navigation.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-hdpi/ic_navigation.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-mdpi_ic_list_trilhas.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-mdpi/ic_list_trilhas.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxhdpi_ic_list_trilhas.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxhdpi/ic_list_trilhas.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxxhdpi_ic_user_marker.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxxhdpi/ic_user_marker.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-mdpi_ic_settings.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-mdpi/ic_settings.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-ldpi_ic_add_location.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-ldpi/ic_add_location.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-ldpi_ic_trilha_logo.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-ldpi/ic_trilha_logo.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xhdpi_ic_trilha_logo.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xhdpi/ic_trilha_logo.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxhdpi_ic_settings.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxhdpi/ic_settings.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-ldpi_ic_list_trilhas.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-ldpi/ic_list_trilhas.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-hdpi_ic_user_marker.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-hdpi/ic_user_marker.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/layout_activity_registrar_trilha.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/layout/activity_registrar_trilha.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-mdpi_ic_trilha_logo.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-mdpi/ic_trilha_logo.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-anydpi-v21_ic_settings.xml.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-anydpi-v21/ic_settings.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxhdpi_ic_user_marker.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxhdpi/ic_user_marker.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/layout_activity_configuracao.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/layout/activity_configuracao.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-ldpi_ic_map.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-ldpi/ic_map.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xhdpi_ic_map.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xhdpi/ic_map.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxhdpi_ic_add_location.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxhdpi/ic_add_location.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-xxxhdpi_ic_add_location.png.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-xxxhdpi/ic_add_location.png"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.trilhasapp-main-36:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.trilhasapp-merged_res-34:/drawable-anydpi-v21_ic_launcher.xml.flat",
+        "source": "com.example.trilhasapp-pngs-30:/drawable-anydpi-v21/ic_launcher.xml"
+    }
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Paleta principal: verde trilha / natureza -->
+    <color name="colorPrimary">#2E7D32</color>       <!-- Verde escuro -->
+    <color name="colorPrimaryDark">#1B5E20</color>   <!-- Verde muito escuro (status bar) -->
+    <color name="colorSecondary">#388E3C</color>      <!-- Verde médio -->
+    <color name="colorAccent">#795548</color>         <!-- Marrom terra (botão configurações) -->
+
+    <!-- Backgrounds -->
+    <color name="background_main">#F5F5F5</color>    <!-- Cinza muito claro -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Textos -->
+    <color name="text_primary">#212121</color>        <!-- Quase preto -->
+    <color name="text_secondary">#757575</color>      <!-- Cinza médio -->
+    <color name="text_hint">#BDBDBD</color>           <!-- Cinza claro -->
+
+    <!-- Estados -->
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorError">#F44336</color>
+    <color name="colorWarning">#FF9800</color>
+
+</resources>
